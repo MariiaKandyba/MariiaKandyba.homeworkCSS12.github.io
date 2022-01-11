@@ -1,0 +1,61 @@
+%font-Montserrat-700 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+%font-Montserrat-400 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+%font-Roboto-300 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+%flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+%section-name{
+  justify-self: center;
+  align-self: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31.69px;
+}
+
+%red-button {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  background: #ff4e50;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+%small-red-button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff4e50;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+%transparent-button {
+  text-decoration: none;
+  color: #ff4e50;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border: 2px solid #ff4e50;
+  border-radius: 40px;
+  cursor: pointer;
+}

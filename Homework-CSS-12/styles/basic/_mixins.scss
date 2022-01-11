@@ -1,0 +1,15 @@
+@mixin fontstyle($fs, $lh) {
+  font-size: $fs;
+  line-height: $lh;
+}
+
+@mixin wh($w, $h) {
+  width: $w;
+  height: $h;
+}
+@mixin link($col, $text-dec) {
+  color: $col;
+  text-decoration: $text-dec;
+}
+
+
